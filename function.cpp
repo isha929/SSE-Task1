@@ -8,5 +8,10 @@ int sum(int n){
     return n+sum(n-1);
 }
 int main(){
+    int n;
+    cout<<"enter a number";
+    cin>>n;
+    cout<<sum(n);
+
     
 }
